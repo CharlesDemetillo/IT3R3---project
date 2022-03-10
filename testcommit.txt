@@ -2,6 +2,13 @@ never gonna give you up, never gonna let you down.
 
 hi hello.
 
+<<<<<<< HEAD
 how you like that?       
 
 lachimolala?
+=======
+how you like that?
+Ni hao ma?
+>>>>>>> c209b50dd14d927ace776f4d7c23176ce32666ff
+
+lajibolala

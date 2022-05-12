@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin');
+Route::get('/userAccount', [App\Http\Controllers\UserAccountController::class, 'index'])->name('userAccount');
+Route::get('/responseTeam', [App\Http\Controllers\ResponseTeamController::class, 'index'])->name('responseTeam');
+
+Route::get('/dashboard',[PageController::class,'dashboard']);
+Route::get('/account',[PageController::class,'account']);
+Route::get('/call',[PageController::class,'call']);
+Route::get('/cmessage',[PageController::class,'cmessage']);
+Route::get('/contact',[PageController::class,'contact']);
+Route::get('/emergency',[PageController::class,'emergency']);
+Route::get('/response',[PageController::class,'response']);
+Route::get('/rmessage',[PageController::class,'rmessage']);
+Route::get('/status',[PageController::class,'status']);
+Route::get('/user',[PageController::class,'user']);

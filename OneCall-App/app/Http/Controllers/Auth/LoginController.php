@@ -23,7 +23,7 @@ class LoginController extends Controller
     use AuthenticatesUsers;
 
     public function redirectTo(){
-        $userType = Auth::id()->userType;
+        $userType = Auth::user()-> userType;
         switch($userType){
             case 'admin':
                 return '/admin';

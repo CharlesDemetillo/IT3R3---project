@@ -211,7 +211,7 @@
           </div>
         </div><!-- End Reports -->
 
-        <!-- Recent Sales -->
+        <!-- Reports for today -->
         <div class="col-12">
           <div class="card recent-sales overflow-auto">
 
@@ -229,13 +229,17 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title">Recent Sales <span>| Today</span></h5>
+              <h5 class="card-title">Recent Reports <span>| Today</span></h5>
 
               <table class="table table-borderless datatable">
                 <thead>
                   <tr>
                     <th scope="col">User ID</th>
+<<<<<<< HEAD
                     <th scope="col">Username</th>
+=======
+                    <th scope="col">User Name</th>
+>>>>>>> 1441ec80bff6cc6a2df941ca283e371b5180c89d
                     <th scope="col">Emergency Type</th>
                     <th scope="col">Location</th>
                     <th scope="col">Status</th>

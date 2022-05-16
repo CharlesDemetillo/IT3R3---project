@@ -235,11 +235,7 @@
                 <thead>
                   <tr>
                     <th scope="col">User ID</th>
-<<<<<<< HEAD
-                    <th scope="col">Username</th>
-=======
                     <th scope="col">User Name</th>
->>>>>>> 1441ec80bff6cc6a2df941ca283e371b5180c89d
                     <th scope="col">Emergency Type</th>
                     <th scope="col">Location</th>
                     <th scope="col">Status</th>

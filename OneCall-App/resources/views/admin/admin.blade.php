@@ -234,10 +234,10 @@
               <table class="table table-borderless datatable">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Customer</th>
-                    <th scope="col">Product</th>
-                    <th scope="col">Price</th>
+                    <th scope="col">User ID</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Emergency Type</th>
+                    <th scope="col">Location</th>
                     <th scope="col">Status</th>
                   </tr>
                 </thead>

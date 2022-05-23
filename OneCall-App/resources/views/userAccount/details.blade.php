@@ -94,7 +94,6 @@
                     <p class="text-center small">Please add more details to finish setting up your account.</p>
                   </div>
                   <form class="row g-3" enctype="multipart/form-data" id="image-upload">
-                    @csrf
                     <input type="hidden" class="form-control" id="id">
                     <div class="col-6">
                       <label for="age" class="form-label">Age*</label>
@@ -112,7 +111,7 @@
                       <label for="profile_picture">Profile Picture</label>
                       <input name="profile_picture" type="file" class="form-control" id="profile_picture">
                     </div>
-                    <!-- <input type="hidden" class="form-control" id="contact-id"> -->
+                    <input type="hidden" class="form-control" id="contact-id">
                     <!--<div class="col-12">
                       <label for="contact_name" class="form-label">Emergency Contact Name*</label>
                       <input type="text" name="contact_name" class="form-control" id="contact_name">
@@ -140,7 +139,6 @@
 @endsection
 @section('scripts')
     <script>
-      
         $(document).ready(
             function (e) {
                 // Add/Create Data

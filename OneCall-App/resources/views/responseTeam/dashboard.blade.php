@@ -3,14 +3,14 @@
 
 
 @section('content')
-<main id="main" class="main" style="background-color:#272c4c">
+<main id="main" class="main">
 
 <div class="pagetitle">
-  <h1 style="color:#fff">Dashboard</h1>
+  <h1>Dashboard</h1>
   <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html" style="color:#fff">Home</a></li>
-      <li class="breadcrumb-item active" style="color:#fff">Rhoda Dashboard</li>
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active">Dashboard</li>
     </ol>
   </nav>
 </div><!-- End Page Title -->
@@ -24,7 +24,7 @@
 
         <!-- Sales Card -->
         <div class="col-xxl-4 col-md-6">
-          <div class="card info-card sales-card" style="background-color:#6266f5">
+          <div class="card info-card sales-card">
 
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -40,15 +40,15 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title" style="color:#fff">Total Reports <span style="color:#fff">| Today</span></h5>
+              <h5 class="card-title">Sales <span>| Today</span></h5>
 
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-telephone" style="color:#C71585"></i>
+                  <i class="bi bi-cart"></i>
                 </div>
                 <div class="ps-3">
-                  <h6 style="color:#C71585">145</h6>
-  
+                  <h6>145</h6>
+                  <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
 
                 </div>
               </div>
@@ -59,7 +59,7 @@
 
         <!-- Revenue Card -->
         <div class="col-xxl-4 col-md-6">
-          <div class="card info-card revenue-card" style="background-color:#6266f5">
+          <div class="card info-card revenue-card">
 
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -75,15 +75,15 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title" style="color:#fff">Total Downloads <span style="color:#fff">| This Month</span></h5>
+              <h5 class="card-title">Revenue <span>| This Month</span></h5>
 
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-download"></i>
+                  <i class="bi bi-currency-dollar"></i>
                 </div>
                 <div class="ps-3">
-                  <h6 style="color:#32CD32">264</h6>
-                  
+                  <h6>$3,264</h6>
+                  <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
 
                 </div>
               </div>
@@ -95,7 +95,7 @@
         <!-- Customers Card -->
         <div class="col-xxl-4 col-xl-12">
 
-          <div class="card info-card customers-card" style="background-color:#6266f5">
+          <div class="card info-card customers-card">
 
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -111,15 +111,15 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title" style="color:#fff">Total Users <span style="color:#fff">| This Year</span></h5>
+              <h5 class="card-title">Customers <span>| This Year</span></h5>
 
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                   <i class="bi bi-people"></i>
                 </div>
                 <div class="ps-3">
-                  <h6 style="color:#ff771d">1244</h6>
-                  
+                  <h6>1244</h6>
+                  <span class="text-danger small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">decrease</span>
 
                 </div>
               </div>
@@ -131,7 +131,7 @@
 
         <!-- Reports -->
         <div class="col-12">
-          <div class="card" style="background-color:#343965">
+          <div class="card">
 
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -147,7 +147,7 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title" style="color:#fff">Reports <span style="color:#fff">/Today</span></h5>
+              <h5 class="card-title">Reports <span>/Today</span></h5>
 
               <!-- Line Chart -->
               <div id="reportsChart"></div>
@@ -156,13 +156,13 @@
                 document.addEventListener("DOMContentLoaded", () => {
                   new ApexCharts(document.querySelector("#reportsChart"), {
                     series: [{
-                      name: 'Total Reports', 
+                      name: 'Sales',
                       data: [31, 40, 28, 51, 42, 82, 56],
                     }, {
-                      name: 'Total Downloads',
+                      name: 'Revenue',
                       data: [11, 32, 45, 32, 34, 52, 41]
                     }, {
-                      name: 'Total Users',
+                      name: 'Customers',
                       data: [15, 11, 32, 18, 9, 24, 11]
                     }],
                     chart: {
@@ -175,7 +175,7 @@
                     markers: {
                       size: 4
                     },
-                    colors: ['#C71585', '#32CD32', '#ff771d'], 
+                    colors: ['#4154f1', '#2eca6a', '#ff771d'],
                     fill: {
                       type: "gradient",
                       gradient: {
@@ -211,9 +211,9 @@
           </div>
         </div><!-- End Reports -->
 
-        <!-- Reports for today -->
+        <!-- Recent Sales -->
         <div class="col-12">
-          <div class="card recent-sales overflow-auto" style="background-color:#343965">
+          <div class="card recent-sales overflow-auto">
 
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -229,15 +229,15 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title">Recent Reports <span>| Today</span></h5>
+              <h5 class="card-title">Recent Sales <span>| Today</span></h5>
 
               <table class="table table-borderless datatable">
                 <thead>
                   <tr>
-                    <th scope="col">User ID</th>
-                    <th scope="col">User Name</th>
-                    <th scope="col">Emergency Type</th>
-                    <th scope="col">Location</th>
+                    <th scope="col">#</th>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
                     <th scope="col">Status</th>
                   </tr>
                 </thead>

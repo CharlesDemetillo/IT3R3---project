@@ -5,10 +5,12 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\Models\User;
+use App\Models\Account;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
+
 
 class RegisterController extends Controller
 {
@@ -33,7 +35,7 @@ class RegisterController extends Controller
     // protected $redirectTo = RouteServiceProvider::HOME;
 
     public function redirectTo(){
-        $userType = Auth::user()-> userType;
+        $userType = Auth::user()->userType;
         switch($userType){
             case 'admin':
                 return '/admin';
@@ -69,7 +71,10 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'name' => ['required', 'string', 'max:255', 'unique:users'],
+            'age' => ['required'],
+            'contact_no' => ['required','integer'],
+            'address' => ['required','string','max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'userType' => ['required', 'string'],
@@ -84,12 +89,33 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-            'userType' => $data['userType'],
-        ]);
+
+        $save_user = new User();
+        $save_user->name = $data['name'];
+        $save_user->age = $data['age'];
+        $save_user->contact_no = $data['contact_no'];
+        $save_user->address = $data['address'];
+        $save_user->email = $data['email'];
+        $save_user->password = Hash::make($data['password']);
+        $save_user->userType = $data['userType'];
+        $save_user->save();
+
+        $data['user_id'] = $save_user->id;
+
+        $save_account = new Account();
+        $save_account->name = $data['name'];
+        $save_account->user_id = $data['user_id']; //NAAY ERROR
+        $save_account->age = $data['age'];
+        $save_account->contact_no = $data['contact_no'];
+        $save_account->address = $data['address'];
+        $save_account->email = $data['email'];
+        $save_account->password = Hash::make($data['password']);
+        $save_account->save();
+
+        return json_encode(
+            ['success'=>true]
+        );
     }
 
 }
+

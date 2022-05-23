@@ -13,8 +13,20 @@ class UserController extends Controller
         return json_encode(User::find($request->id));
     } 
     public function create(Request $request){
+        $request->validate([
+            'name' => 'required|unique:users',
+            'age' => 'required',
+            'contact_no' => 'required',
+            'address' => 'required',
+            'email' => 'required|unique:users',
+            'password' => 'required',
+            'userType' => 'required',
+        ]);
         $data = new User();
         $data->name = $request->name;
+        $data->age = $request->age;
+        $data->contact_no = $request->contact_no;
+        $data->address = $request->address;
         $data->email = $request->email;
         $data->password = $request->password;
         $data->userType = $request->userType;
@@ -24,8 +36,20 @@ class UserController extends Controller
         );
     } 
     public function update(Request $request){
+        $request->validate([
+            'name' => 'required|unique:users',
+            'age' => 'required',
+            'contact_no' => 'required',
+            'address' => 'required',
+            'email' => 'required|unique:users',
+            'password' => 'required',
+            'userType' => 'required',
+        ]);
         $data = User::find($request->id);
         $data->name = $request->name;
+        $data->age = $request->age;
+        $data->contact_no = $request->contact_no;
+        $data->address = $request->address;
         $data->email = $request->email;
         $data->password = $request->password;
         $data->userType = $request->userType;

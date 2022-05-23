@@ -44,6 +44,5 @@ class CmessageController extends Controller
         return json_encode(
             ['success'=>true]
         );
-    }
-    
+    } 
 }

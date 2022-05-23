@@ -42,7 +42,10 @@
                 @yield('content')
                 @include('admin.footer')
             @elseif( Auth::user()->userType == 'userAccount')
+                @include('userAccount.navbar')
+                @include('userAccount.sidebar')
                 @yield('content')
+                @include('userAccount.footer')
             @elseif( Auth::user()->userType == 'responseTeam')
                 @include('responseTeam.navbar')
                 @include('responseTeam.sidebar')
@@ -53,6 +56,8 @@
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('pub/assets/vendor/apexcharts/apexcharts.min.js') }}"></script>

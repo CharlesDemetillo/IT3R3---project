@@ -14,6 +14,6 @@ class ResponseTeamController extends Controller
 
     public function index()
     {
-        return view('responseTeam.responseTeam');
+        return view('responseTeam.dashboard');
     }
 }

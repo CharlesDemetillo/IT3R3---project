@@ -10,11 +10,8 @@
   <nav>
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="index.html" style="color:#fff">Home</a></li>
-<<<<<<< HEAD
       <li class="breadcrumb-item active" style="color:#fff">Dashboard</li>
-=======
-      <li class="breadcrumb-item active" style="color:#fff">Rhoda Dashboard</li>
->>>>>>> eb6fb47754a27f2f584f3416b8bf0490afa5107e
+
     </ol>
   </nav>
 </div><!-- End Page Title -->

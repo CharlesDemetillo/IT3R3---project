@@ -17,7 +17,6 @@ class StatusController extends Controller
             'emergency_id' => 'required',
             'response_id' => 'required',
             'status' => 'required',
-
         ]);
         $data = new Status();
         $data->emergency_id = $request->emergency_id;

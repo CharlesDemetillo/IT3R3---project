@@ -14,6 +14,9 @@ class User extends Authenticatable
 
     protected $fillable = [
         'name',
+        'age',
+        'address',
+        'contact_no',
         'email',
         'password',
         'userType',
@@ -27,4 +30,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    // INVERSE: A User has many Response
+    public function response(){
+        return $this->hasMany(Response::class);
+    }
+    // INVERSE: A User has many Account
+    public function account(){
+        return $this->hasMany(Account::class);
+    }
+
 }

@@ -16,13 +16,13 @@ class ContactController extends Controller
         $request->validate([
             'account_id' => 'required',
             'contact_name' => 'required',
-            'contact' => 'required',
+            'contact_no' => 'required',
             'relationship_to_user' => 'required',
         ]);
         $data = new Contact();
         $data->account_id = $request->account_id;
         $data->contact_name = $request->contact_name;
-        $data->contact = $request->contact;
+        $data->contact_no = $request->contact_no;
         $data->relationship_to_user = $request->relationship_to_user;
         $data->save();
         return json_encode(
@@ -33,13 +33,13 @@ class ContactController extends Controller
         $request->validate([
             'account_id' => 'required',
             'contact_name' => 'required',
-            'contact' => 'required',
+            'contact_no' => 'required',
             'relationship_to_user' => 'required',
         ]);
         $data = Contact::find($request->id);
         $data->account_id = $request->account_id;
         $data->contact_name = $request->name;
-        $data->contact = $request->contact_no;
+        $data->contact_no = $request->contact_no;
         $data->relationship_to_user = $request->relationship_to_user;
         $data->save();
         return json_encode(

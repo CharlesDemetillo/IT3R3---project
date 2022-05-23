@@ -16,10 +16,12 @@ class CallController extends Controller
         $request->validate([
             'account_id' => 'required',
             'emergency_id' => 'required',
+            'call_minutes' => 'required',
         ]);
         $data = new Call();
         $data->account_id = $request->account_id;
         $data->emergency_id = $request->emergency_id;
+        $data->call_minutes = $request->call_minutes;
         $data->save();
         return json_encode(
             ['success'=>true]
@@ -29,10 +31,12 @@ class CallController extends Controller
         $request->validate([
             'account_id' => 'required',
             'emergency_id' => 'required',
+            'call_minutes' => 'required',
         ]);
         $data = Call::find($request->id);
         $data->account_id = $request->account_id;
         $data->emergency_id = $request->emergency_id;
+        $data->call_minutes = $request->call_minutes;
         $data->save();
         return json_encode(
             ['success'=>true]

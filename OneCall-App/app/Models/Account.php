@@ -2,12 +2,31 @@
 
 namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens;
 
 class Account extends Model
 {
+    use HasApiTokens, HasFactory, Notifiable;
+    protected $fillable = [
+        'name',
+        'user_id',
+        'age',
+        'address',
+        'contact_no',
+        'email',
+        'password',
+    ];
+
     protected $table = 'account';
     protected $primaryKey = 'id';
-
+    
+    // An Account belongs to User
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
     // INVERSE: An Account has many Call
     public function call(){
         return $this->hasMany(Call::class);

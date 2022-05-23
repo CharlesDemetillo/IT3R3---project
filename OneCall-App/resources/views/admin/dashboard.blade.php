@@ -315,7 +315,7 @@
           <div class="activity">
 
             <div class="activity-item d-flex">
-              <div class="activite-label" style="color:#fff">32 min</div>
+              <div class="activite-label" style="color:#fff">30 mins</div>
               <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
               <div class="activity-content" style="color:#fff">
                 Fire Emergency
@@ -323,7 +323,7 @@
             </div><!-- End activity item-->
 
             <div class="activity-item d-flex">
-              <div class="activite-label" style="color:#fff">56 min</div>
+              <div class="activite-label" style="color:#fff">1 hr</div>
               <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
               <div class="activity-content" style="color:#fff">
                 Car Accident
@@ -339,7 +339,7 @@
             </div><!-- End activity item-->
 
             <div class="activity-item d-flex">
-              <div class="activite-label" style="color:#fff">5 hrs</div>
+              <div class="activite-label" style="color:#fff">4 hrs</div>
               <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
               <div class="activity-content" style="color:#fff">
                 Robbery Incident

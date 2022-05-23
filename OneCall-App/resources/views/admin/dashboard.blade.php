@@ -295,7 +295,7 @@
     <div class="col-lg-4">
 
       <!-- Recent Activity -->
-      <div class="card">
+      <div class="card" style="background-color:#663399">
         <div class="filter">
           <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -310,55 +310,55 @@
         </div>
 
         <div class="card-body">
-          <h5 class="card-title">Recent Activity <span>| Today</span></h5>
+          <h5 class="card-title" style="color:#fff">Recent Activity <span style="color:#fff">| Today</span></h5>
 
           <div class="activity">
 
             <div class="activity-item d-flex">
-              <div class="activite-label">32 min</div>
+              <div class="activite-label" style="color:#fff">32 min</div>
               <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
-              <div class="activity-content">
-                Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
+              <div class="activity-content" style="color:#fff">
+                Fire Emergency
               </div>
             </div><!-- End activity item-->
 
             <div class="activity-item d-flex">
-              <div class="activite-label">56 min</div>
+              <div class="activite-label" style="color:#fff">56 min</div>
               <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
-              <div class="activity-content">
-                Voluptatem blanditiis blanditiis eveniet
+              <div class="activity-content" style="color:#fff">
+                Car Accident
               </div>
             </div><!-- End activity item-->
 
             <div class="activity-item d-flex">
-              <div class="activite-label">2 hrs</div>
+              <div class="activite-label" style="color:#fff">2 hrs</div>
               <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
-              <div class="activity-content">
-                Voluptates corrupti molestias voluptatem
+              <div class="activity-content" style="color:#fff">
+                Abuse Incident
               </div>
             </div><!-- End activity item-->
 
             <div class="activity-item d-flex">
-              <div class="activite-label">1 day</div>
+              <div class="activite-label" style="color:#fff">5 hrs</div>
               <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
-              <div class="activity-content">
-                Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
+              <div class="activity-content" style="color:#fff">
+                Robbery Incident
               </div>
             </div><!-- End activity item-->
 
             <div class="activity-item d-flex">
-              <div class="activite-label">2 days</div>
+              <div class="activite-label" style="color:#fff">2 days</div>
               <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
-              <div class="activity-content">
-                Est sit eum reiciendis exercitationem
+              <div class="activity-content" style="color:#fff">
+                Car Accident
               </div>
             </div><!-- End activity item-->
 
             <div class="activity-item d-flex">
-              <div class="activite-label">4 weeks</div>
+              <div class="activite-label" style="color:#fff">4 weeks</div>
               <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
-              <div class="activity-content">
-                Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
+              <div class="activity-content" style="color:#fff">
+                Robbery Incident
               </div>
             </div><!-- End activity item-->
 
@@ -368,7 +368,7 @@
       </div><!-- End Recent Activity -->
 
       <!-- News & Updates Traffic -->
-      <div class="card">
+      <div class="card" style="background-color:#4B0082">
         <div class="filter">
           <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -383,36 +383,36 @@
         </div>
 
         <div class="card-body pb-0">
-          <h5 class="card-title">News &amp; Updates <span>| Today</span></h5>
+          <h5 class="card-title" style="color:#fff">News &amp; Updates <span style="color:#fff">| Today</span></h5>
 
           <div class="news">
             <div class="post-item clearfix">
               <img src="assets/img/news-1.jpg" alt="">
-              <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
+              <h4><a href="#" style="color:#fff">Nihil blanditiis at in nihil autem</a></h4>
               <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
             </div>
 
             <div class="post-item clearfix">
               <img src="assets/img/news-2.jpg" alt="">
-              <h4><a href="#">Quidem autem et impedit</a></h4>
+              <h4><a href="#" style="color:#fff">Quidem autem et impedit</a></h4>
               <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
             </div>
 
             <div class="post-item clearfix">
               <img src="assets/img/news-3.jpg" alt="">
-              <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
+              <h4><a href="#" style="color:#fff">Id quia et et ut maxime similique occaecati ut</a></h4>
               <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
             </div>
 
             <div class="post-item clearfix">
               <img src="assets/img/news-4.jpg" alt="">
-              <h4><a href="#">Laborum corporis quo dara net para</a></h4>
+              <h4><a href="#" style="color:#fff">Laborum corporis quo dara net para</a></h4>
               <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
             </div>
 
             <div class="post-item clearfix">
               <img src="assets/img/news-5.jpg" alt="">
-              <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
+              <h4><a href="#" style="color:#fff">Et dolores corrupti quae illo quod dolor</a></h4>
               <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...</p>
             </div>
 

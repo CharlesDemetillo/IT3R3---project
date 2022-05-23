@@ -40,7 +40,7 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title" style="color:#fff">rhoda Reports <span style="color:#fff">| Today</span></h5>
+              <h5 class="card-title" style="color:#fff">Total Reports <span style="color:#fff">| Today</span></h5>
 
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">

@@ -24,21 +24,16 @@
 
         <div class="col-xxl-4 col-md-6">
           <div class="card info-card sales-card" style="background-color:#6266f5">
-
-            <div class="filter">
-              <a class="icon" href="#" data-bs-toggle="dropdown"></a>
-            </div>
-
             <div class="card-body">
               <h5 class="card-title" style="color:#fff">Police Department <span style="color:#fff">|
                <span class="badge bg-primary badge-number"style="color:#fff" >4</span> </span></h5>
 
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-telephone" style="color:#C71585"></i>
+                  <i class="bi bi-lock" style="color:#C71585"></i>
                 </div>
                 <div class="ps-3">
-                  <h6 style="color:#C71585">Reports Today: 145</h6>
+                  <h6 style="color:#C71585">Today: 15</h6>
   
 
                 </div>
@@ -52,28 +47,15 @@
         <div class="col-xxl-4 col-md-6">
           <div class="card info-card revenue-card" style="background-color:#6266f5">
 
-            <div class="filter">
-              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                <li class="dropdown-header text-start">
-                  <h6>Filter</h6>
-                </li>
-
-                <li><a class="dropdown-item" href="#">Today</a></li>
-                <li><a class="dropdown-item" href="#">This Month</a></li>
-                <li><a class="dropdown-item" href="#">This Year</a></li>
-              </ul>
-            </div>
-
             <div class="card-body">
-              <h5 class="card-title" style="color:#fff">Total Downloads <span style="color:#fff">| This Month</span></h5>
-
+              <h5 class="card-title" style="color:#fff">Fire Department <span style="color:#fff">| 
+              <span class="badge bg-primary badge-number"style="color:#fff" >4</span> </span></h5>
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                   <i class="bi bi-download"></i>
                 </div>
                 <div class="ps-3">
-                  <h6 style="color:#32CD32">264</h6>
+                  <h6 style="color:#32CD32">Today: 5</h6>
                   
 
                 </div>
@@ -86,29 +68,15 @@
         <div class="col-xxl-4 col-xl-12">
 
           <div class="card info-card customers-card" style="background-color:#6266f5">
-
-            <div class="filter">
-              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                <li class="dropdown-header text-start">
-                  <h6>Filter</h6>
-                </li>
-
-                <li><a class="dropdown-item" href="#">Today</a></li>
-                <li><a class="dropdown-item" href="#">This Month</a></li>
-                <li><a class="dropdown-item" href="#">This Year</a></li>
-              </ul>
-            </div>
-
             <div class="card-body">
-              <h5 class="card-title" style="color:#fff">Total Users <span style="color:#fff">| This Year</span></h5>
-
+              <h5 class="card-title" style="color:#fff">Medical Department<span style="color:#fff">|
+              <span class="badge bg-primary badge-number"style="color:#fff" >4</span> </span></h5>
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                   <i class="bi bi-people"></i>
                 </div>
                 <div class="ps-3">
-                  <h6 style="color:#ff771d">1244</h6>
+                  <h6 style="color:#ff771d">Today: 7</h6>
                   
 
                 </div>
@@ -119,7 +87,7 @@
 
         </div>
 
-        <div class="col-12">
+        <!-- <div class="col-12">
           <div class="card" style="background-color:#343965">
 
             <div class="filter">
@@ -198,7 +166,8 @@
             </div>
 
           </div>
-        </div>
+        </div> -->
+        
         <div class="col-12">
           <div class="card recent-sales overflow-auto" style="background-color:#343965">
 

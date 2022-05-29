@@ -201,7 +201,7 @@
                   <tr>
                     <th scope="row"><a href="#" style="color:#fff">#2457</a></th>
                     <td style="color:#fff">Samantha123@gmail.com</td>
-                    <td><a href="#" class="text-primary">Fire Emergency</a></td>
+                    <td><a href="#" style="color:#fff">Fire Emergency</a></td>
                     <td style="color:#fff">Kauswagan Cagayan De Oro City</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>

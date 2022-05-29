@@ -244,14 +244,14 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row"><a href="#">#2457</a></th>
+                    <th scope="row"><a href="#" style="color:#fff">#2457</a></th>
                     <td>Brandon Jacob</td>
                     <td><a href="#" class="text-primary">At praesentium minu</a></td>
                     <td>$64</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>
                   <tr>
-                    <th scope="row"><a href="#">#2147</a></th>
+                    <th scope="row"><a href="#" style="color:#fff">#2147</a></th>
                     <td>Bridie Kessler</td>
                     <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
                     <td>$47</td>

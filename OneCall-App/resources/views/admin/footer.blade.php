@@ -1,5 +1,5 @@
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <footer id="footer" class="footer" style="background-color:#aeb3ef">
     <div class="copyright">
       &copy; Copyright <strong><span>OneCallAwayEmergencyApp</span></strong>. All Rights Reserved
     </div>

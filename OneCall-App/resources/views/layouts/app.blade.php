@@ -38,7 +38,6 @@
         @else
             @if( Auth::user()->userType == 'admin')
                 @include('admin.navbar')
-                @include('admin.sidebar')
                 @yield('content')
                 @include('admin.footer')
             @elseif( Auth::user()->userType == 'userAccount')

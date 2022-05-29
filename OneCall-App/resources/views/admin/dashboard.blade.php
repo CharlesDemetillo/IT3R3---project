@@ -207,19 +207,13 @@
                   </tr>
                 </tbody>
               </table>
-
             </div>
-
           </div>
         </div>
-
-        
-
       </div>
     </div>
     <div class="col-lg-4">
 
-      <!-- Recent Activity -->
       <div class="card" style="background-color:#663399">
         <div class="filter">
           <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -245,7 +239,7 @@
               <div class="activity-content" style="color:#fff">
                 Fire Emergency
               </div>
-            </div><!-- End activity item-->
+            </div>
 
             <div class="activity-item d-flex">
               <div class="activite-label" style="color:#fff">1 hr</div>
@@ -253,46 +247,10 @@
               <div class="activity-content" style="color:#fff">
                 Car Accident
               </div>
-            </div><!-- End activity item-->
-
-            <div class="activity-item d-flex">
-              <div class="activite-label" style="color:#fff">2 hrs</div>
-              <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
-              <div class="activity-content" style="color:#fff">
-                Abuse Incident
-              </div>
-            </div><!-- End activity item-->
-
-            <div class="activity-item d-flex">
-              <div class="activite-label" style="color:#fff">4 hrs</div>
-              <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
-              <div class="activity-content" style="color:#fff">
-                Robbery Incident
-              </div>
-            </div><!-- End activity item-->
-
-            <div class="activity-item d-flex">
-              <div class="activite-label" style="color:#fff">2 days</div>
-              <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
-              <div class="activity-content" style="color:#fff">
-                Car Accident
-              </div>
-            </div><!-- End activity item-->
-
-            <div class="activity-item d-flex">
-              <div class="activite-label" style="color:#fff">4 weeks</div>
-              <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
-              <div class="activity-content" style="color:#fff">
-                Robbery Incident
-              </div>
-            </div><!-- End activity item-->
-
+            </div>
           </div>
-
         </div>
-      </div><!-- End Recent Activity -->
-
-      <!-- News & Updates Traffic -->
+      </div>
       <div class="card" style="background-color:#4B0082">
         <div class="filter">
           <a class="icon" href="#" data-bs-toggle="dropdown"></a>
@@ -300,18 +258,13 @@
 
         <div class="card-body pb-0">
           <h5 class="card-title" style="color:#fff">News &amp; Updates <span style="color:#fff">| Today</span></h5>
-
           <div class="news">
-
-          </div><!-- End sidebar recent posts-->
-
+          </div>
         </div>
-      </div><!-- End News & Updates -->
-
-    </div><!-- End Right side columns -->
-
+      </div>
+    </div>
   </div>
 </section>
 
-</main><!-- End #main -->
+</main>
 @endsection

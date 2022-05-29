@@ -229,8 +229,8 @@
               </ul>
             </div>
 
-            <div class="card-body">
-              <h5 class="card-title">Recent Reports <span>| Today</span></h5>
+            <div class="card-body" style="color:#fff">
+              <h5 class="card-title" style="color:#fff">Recent Reports <span>| Today</span></h5>
 
               <table class="table table-borderless datatable">
                 <thead>
@@ -245,37 +245,37 @@
                 <tbody>
                   <tr>
                     <th scope="row"><a href="#" style="color:#fff">#2457</a></th>
-                    <td>Brandon Jacob</td>
-                    <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                    <td>$64</td>
+                    <td style="color:#fff">Samantha123@gmail.com</td>
+                    <td><a href="#" class="text-primary">Fire Emergency</a></td>
+                    <td style="color:#fff">Kauswagan Cagayan De Oro City</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>
                   <tr>
                     <th scope="row"><a href="#" style="color:#fff">#2147</a></th>
-                    <td>Bridie Kessler</td>
-                    <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
-                    <td>$47</td>
+                    <td style="color:#fff">TyroneDreyes@gmail.com</td>
+                    <td><a href="#" class="text-primary">Car Accident</a></td>
+                    <td style="color:#fff">Cugman Cagayan De Oro City</td>
                     <td><span class="badge bg-warning">Pending</span></td>
                   </tr>
                   <tr>
-                    <th scope="row"><a href="#">#2049</a></th>
-                    <td>Ashleigh Langosh</td>
-                    <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
-                    <td>$147</td>
+                    <th scope="row"><a href="#" style="color:#fff">#2049</a></th>
+                    <td style="color:#fff">Isabel321@yahoo.com</td>
+                    <td><a href="#" class="text-primary">Abuse Incident</a></td>
+                    <td style="color:#fff">Zone8 Casinglot Tagoloan Mis.Or</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>
                   <tr>
-                    <th scope="row"><a href="#">#2644</a></th>
-                    <td>Angus Grady</td>
-                    <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
-                    <td>$67</td>
+                    <th scope="row"><a href="#" style="color:#fff">#2644</a></th>
+                    <td style="color:#fff">JohnWalker@gmail.com</td>
+                    <td><a href="#" class="text-primary">Robbery Incident</a></td>
+                    <td style="color:#fff">Lapasan Cagayan De Oro City</td>
                     <td><span class="badge bg-danger">Rejected</span></td>
                   </tr>
                   <tr>
-                    <th scope="row"><a href="#">#2644</a></th>
-                    <td>Raheem Lehner</td>
-                    <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
-                    <td>$165</td>
+                    <th scope="row"><a href="#"style="color:#fff">#2644</a></th>
+                    <td style="color:#fff">Kharl_14@yahoo.com</td>
+                    <td><a href="#" class="text-primary">Car Accident</a></td>
+                    <td style="color:#fff">Puerto Cagayan De Oro City</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>
                 </tbody>

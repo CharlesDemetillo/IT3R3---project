@@ -167,7 +167,7 @@
 
           </div>
         </div> -->
-        
+
         <div class="col-12">
           <div class="card recent-sales overflow-auto" style="background-color:#343965">
 
@@ -203,35 +203,6 @@
                     <td style="color:#fff">Samantha123@gmail.com</td>
                     <td><a href="#" class="text-primary">Fire Emergency</a></td>
                     <td style="color:#fff">Kauswagan Cagayan De Oro City</td>
-                    <td><span class="badge bg-success">Approved</span></td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row"><a href="#" style="color:#fff">#2147</a></th>
-                    <td style="color:#fff">TyroneDreyes@gmail.com</td>
-                    <td><a href="#" class="text-primary">Car Accident</a></td>
-                    <td style="color:#fff">Cugman Cagayan De Oro City</td>
-                    <td><span class="badge bg-warning">Pending</span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="#" style="color:#fff">#2049</a></th>
-                    <td style="color:#fff">Isabel321@yahoo.com</td>
-                    <td><a href="#" class="text-primary">Abuse Incident</a></td>
-                    <td style="color:#fff">Zone8 Casinglot Tagoloan Mis.Or</td>
-                    <td><span class="badge bg-success">Approved</span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="#" style="color:#fff">#2644</a></th>
-                    <td style="color:#fff">JohnWalker@gmail.com</td>
-                    <td><a href="#" class="text-primary">Robbery Incident</a></td>
-                    <td style="color:#fff">Lapasan Cagayan De Oro City</td>
-                    <td><span class="badge bg-danger">Rejected</span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="#"style="color:#fff">#2644</a></th>
-                    <td style="color:#fff">Kharl_14@yahoo.com</td>
-                    <td><a href="#" class="text-primary">Car Accident</a></td>
-                    <td style="color:#fff">Puerto Cagayan De Oro City</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>
                 </tbody>

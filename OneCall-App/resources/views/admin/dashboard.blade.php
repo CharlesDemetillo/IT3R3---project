@@ -6,11 +6,11 @@
 <main id="main" class="main" style="background-color:#272c4c">
 
 <div class="pagetitle">
-  <h1 style="color:#fff">Dashboard</h1>
+  <h1 style="color:#fff">Admin Dashboard</h1>
   <nav>
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="index.html" style="color:#fff">Home</a></li>
-      <li class="breadcrumb-item active" style="color:#fff">Dashboard</li>
+      <li class="breadcrumb-item active" style="color:#fff">Admin Dashboard</li>
 
     </ol>
   </nav>
@@ -30,7 +30,7 @@
 
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-lock" style="color:#C71585"></i>
+                  <i class="bi bi-fingerprint" style="color:#C71585"></i>
                 </div>
                 <div class="ps-3">
                   <h6 style="color:#C71585">Today: 15</h6>
@@ -52,7 +52,7 @@
               <span class="badge bg-primary badge-number"style="color:#fff" >4</span> </span></h5>
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-download"></i>
+                  <i class="bi bi-droplet"></i>
                 </div>
                 <div class="ps-3">
                   <h6 style="color:#32CD32">Today: 5</h6>
@@ -73,7 +73,7 @@
               <span class="badge bg-primary badge-number"style="color:#fff" >4</span> </span></h5>
               <div class="d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-people"></i>
+                  <i class="bi bi-activity"></i>
                 </div>
                 <div class="ps-3">
                   <h6 style="color:#ff771d">Today: 7</h6>

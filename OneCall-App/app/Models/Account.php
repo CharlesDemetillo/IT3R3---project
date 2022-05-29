@@ -11,8 +11,8 @@ class Account extends Model
 {
     use HasApiTokens, HasFactory, Notifiable;
     protected $fillable = [
-        'name',
         'user_id',
+        'name',
         'age',
         'address',
         'contact_no',

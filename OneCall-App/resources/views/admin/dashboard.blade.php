@@ -236,7 +236,7 @@
                     <td style="color:#fff">Kauswagan Cagayan De Oro City</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>
-<<<<<<< HEAD
+
                   <tr>
                     <th scope="row"><a href="#" style="color:#fff">#2147</a></th>
                     <td style="color:#fff">TyroneDreyes@gmail.com</td>
@@ -265,8 +265,6 @@
                     <td style="color:#fff">Puerto Cagayan De Oro City</td>
                     <td><span class="badge bg-success">Approved</span></td>
                   </tr>
-=======
->>>>>>> ccc223971191adaa444077551461d63563198caf
                 </tbody>
               </table>
 

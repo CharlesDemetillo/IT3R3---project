@@ -37,8 +37,8 @@ class UsersTableSeeder extends Seeder
         ]);
         \DB:: table('users')->insert([
             'name' => 'Health',
-            'email' => 'Health@email.com',
-            'password' => bcrypt('health123'),
+            'email' => 'Firedept@email.com',
+            'password' => bcrypt('firedepth123'),
             'userType' => 'responseTeam',
         ]);
     }

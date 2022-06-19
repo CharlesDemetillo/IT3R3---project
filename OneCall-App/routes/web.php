@@ -17,6 +17,7 @@ use App\Http\Controllers\PageController;
 Route::get('/', function () {
     return view('auth.login');
 });
+Route::get('Location','GeoLocationController@index');
 
 Auth::routes();
 

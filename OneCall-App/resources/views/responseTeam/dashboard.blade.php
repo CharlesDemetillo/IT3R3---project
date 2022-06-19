@@ -119,7 +119,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row"><a href="#" style="color:#fff">3:05pm</a></th>
+                    <th scope="row"><a href="#" style="color:#fff">3:05 PM</a></th>
                     <td style="color:#fff">Samantha Nicole Perez</td>
                     <td><a href="#" style="color:#fff">Car Accident</a></td>
                     <td style="color:#fff">Kauswagan Cagayan De Oro City</td>

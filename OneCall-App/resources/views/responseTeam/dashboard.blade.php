@@ -3,7 +3,7 @@
 
 
 @section('content')
-<main id="main" class="main" style="background-color:#272c4c; min-height=100%">
+<main id="main" class="main" style="background-color:#272c4c">
 
 <div class="pagetitle">
   <h1 style="color:#fff">POLICE EMERGENCY DASHBOARD</h1>

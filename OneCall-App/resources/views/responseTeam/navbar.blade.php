@@ -6,12 +6,12 @@
 
           <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
             <i class="bi bi-bell"></i>
-            <span class="badge bg-primary badge-number">2</span>
+            <span class="badge bg-primary badge-number">1</span>
           </a>
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
             <li class="dropdown-header">
-              You have 4 new notifications
+             
               <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
             </li>
             <li>
@@ -21,7 +21,7 @@
             <li class="notification-item">
               <i class="bi bi-exclamation-circle text-warning"></i>
               <div>
-                <h4>FIRE EMERGENCY</h4>
+                <h4>CAR ACCIDENT</h4>
                 <p>Samantha Nicole Perez</p>
                 <p>30 min. ago</p>
               </div>
@@ -31,40 +31,9 @@
               <hr class="dropdown-divider">
             </li>
 
-            <li class="notification-item">
-              <i class="bi bi-x-circle text-danger"></i>
-              <div>
-                <h4>CAR ACCIDENT</h4>
-                <p>Tyrone Dave Reyes</p>
-                <p>1 hr. ago</p>
-              </div>
-            </li>
+          
 
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="notification-item">
-              <i class="bi bi-check-circle text-success"></i>
-              <div>
-                <h4>ABUSE INCIDENT</h4>
-                <p>Isabel Lopez</p>
-                <p>2 hrs. ago</p>
-              </div>
-            </li>
-
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="notification-item">
-              <i class="bi bi-info-circle text-primary"></i>
-              <div>
-                <h4>ROBBERY INCIDENT</h4>
-                <p>John Walker</p>
-                <p>4 hrs. ago</p>
-              </div>
-            </li>
+          
 
             <li>
               <hr class="dropdown-divider">
@@ -81,47 +50,18 @@
 
           <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
             <i class="bi bi-chat-left-text"></i>
-            <span class="badge bg-success badge-number">3</span>
+            <span class="badge bg-success badge-number">1</span>
           </a>
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
             <li class="dropdown-header">
-              You have 3 new messages
+
               <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
             </li>
             <li>
               <hr class="dropdown-divider">
             </li>
 
-            <li class="message-item">
-              <a href="#">
-                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
-                <div>
-                  <h4>BUREAU OF FIRE PROTECTION</h4>
-                  <p>Emergency Report Received</p>
-                  <p>Status:</p>
-                  <p>4 hrs. ago</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="message-item">
-              <a href="#">
-                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
-                <div>
-                  <h4>DEPARTMENT OF HEALTH</h4>
-                  <p>Emergency Report Received</p>
-                  <p>Status:</p>
-                  <p>6 hrs. ago</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
 
             <li class="message-item">
               <a href="#">
@@ -130,7 +70,7 @@
                   <h4>PHILIPPINE NATIONAL POLICE</h4>
                   <p>Emergency Report Received</p>
                   <p>Status:</p>
-                  <p>8 hrs. ago</p>
+                  <p>30 mins. ago</p>
                 </div>
               </a>
             </li>
@@ -149,7 +89,7 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+           
             <span class="d-none d-md-block dropdown-toggle ps-2"> C.Demetillo </span>
           </a>
 

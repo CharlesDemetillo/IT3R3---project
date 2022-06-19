@@ -1,25 +1,22 @@
 @extends('layouts.app')
 @section('title','Dashboard')
-
-
 @section('content')
-<main id="main" class="main" style="background-color:#272c4c">
+<main id="main" class="main" style="background-color:#272c4c" min-height="100%", width="100%">
 
-<div class="pagetitle">
-  <h1 style="color:#fff">Dashboard</h1>
-  <nav>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html" style="color:#fff">Home</a></li>
-      <li class="breadcrumb-item active" style="color:#fff">Dashboard</li>
 
-    </ol>
-  </nav>
-</div>
 
 <section class="section dashboard">
   <div class="row">
+  <div class="card-body" style="color:#fff">
+              <p style="font-size:80px">ONE CALL AWAY <br> EMERGENCY APP</p>
 
-    <div class="col-lg-8">
+            </div>
+
+            <div class="center" style="text-align:center; color:#fff";><p style="font-size:30px;">About the application</p><div>
+<p>Application to quickly place a reports in case of an emergency.</p>
+</div> 
+   
+<div class="col-lg-8">
       <div class="row">
 
         <div class="col-xxl-4 col-md-6">
@@ -86,6 +83,28 @@
           </div>
 
         </div>
+        <div class="col-xxl-4 col-xl-12">
+
+          <div class="card info-card customers-card" style="background-color:#6266f5">
+            <div class="card-body">
+              <h5 class="card-title" style="color:#fff">Medical Department<span style="color:#fff">|
+              <span class="badge bg-primary badge-number"style="color:#fff" >4</span> </span></h5>
+              <div class="d-flex align-items-center">
+                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div class="ps-3">
+                  <h6 style="color:#ff771d">Today: 7</h6>
+                  
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        
 
         <!-- <div class="col-12">
           <div class="card" style="background-color:#343965">
@@ -184,30 +203,7 @@
               </ul>
             </div>
 
-            <div class="card-body" style="color:#fff">
-              <h5 class="card-title" style="color:#fff">Recent Reports <span>| Today</span></h5>
-
-              <table class="table table-borderless datatable">
-                <thead>
-                  <tr>
-                    <th scope="col">User ID</th>
-                    <th scope="col">User Name</th>
-                    <th scope="col">Emergency Type</th>
-                    <th scope="col">Location</th>
-                    <th scope="col">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row"><a href="#" style="color:#fff">#2457</a></th>
-                    <td style="color:#fff">Samantha123@gmail.com</td>
-                    <td><a href="#" style="color:#fff">Fire Emergency</a></td>
-                    <td style="color:#fff">Kauswagan Cagayan De Oro City</td>
-                    <td><span class="badge bg-success">Approved</span></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+           
           </div>
         </div>
       </div>

@@ -42,7 +42,6 @@
                 @include('admin.footer')
             @elseif( Auth::user()->userType == 'userAccount')
                 @include('userAccount.navbar')
-                @include('userAccount.sidebar')
                 @yield('content')
                 @include('userAccount.footer')
             @elseif( Auth::user()->userType == 'responseTeam')

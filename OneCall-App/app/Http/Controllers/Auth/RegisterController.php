@@ -89,32 +89,16 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        return User::create([
+          'name' => $data['name'],
+           'age' => $data['age'],
+           'contact_no' => $data['contact_no'],
+           'address' => $data['address'],
+           'email' => $data['email'],
+           'password' => Hash::make($data['password']),
+           'userType' => $data['userType'],
 
-        $save_user = new User();
-        $save_user->name = $data['name'];
-        $save_user->age = $data['age'];
-        $save_user->contact_no = $data['contact_no'];
-        $save_user->address = $data['address'];
-        $save_user->email = $data['email'];
-        $save_user->password = Hash::make($data['password']);
-        $save_user->userType = $data['userType'];
-        $save_user->save();
-
-        $data['user_id'] = $save_user->id;
-
-        $save_account = new Account();
-        $save_account->name = $data['name'];
-        $save_account->user_id = $data['user_id']; //NAAY ERROR
-        $save_account->age = $data['age'];
-        $save_account->contact_no = $data['contact_no'];
-        $save_account->address = $data['address'];
-        $save_account->email = $data['email'];
-        $save_account->password = Hash::make($data['password']);
-        $save_account->save();
-
-        return json_encode(
-            ['success'=>true]
-        );
+        ]);
     }
 
 }

@@ -31,10 +31,6 @@
               <hr class="dropdown-divider">
             </li>
 
-          
-
-          
-
             <li>
               <hr class="dropdown-divider">
             </li>
@@ -96,7 +92,7 @@
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
               <h6> Charles Demetillo </h6>
-              <span> POTATOOOW </span>
+              
             </li>
             <li>
               <hr class="dropdown-divider">

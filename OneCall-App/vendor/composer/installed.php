@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '68f43fc95453d8af3dc950c1eeed644be32e0735',
+        'reference' => '2b4130a0d38ebdb485801a79070ef83646af9f72',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -397,7 +397,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '68f43fc95453d8af3dc950c1eeed644be32e0735',
+            'reference' => '2b4130a0d38ebdb485801a79070ef83646af9f72',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -497,6 +497,15 @@
             'install_path' => __DIR__ . '/../maxmind/web-service-common',
             'aliases' => array(),
             'reference' => '4dc5a3e8df38aea4ca3b1096cee3a038094e9b53',
+            'dev_requirement' => false,
+        ),
+        'midnite81/geolocation' => array(
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../midnite81/geolocation',
+            'aliases' => array(),
+            'reference' => '05d2cd82233d3a3a6ab0438770ed6459337751c2',
             'dev_requirement' => false,
         ),
         'mockery/mockery' => array(

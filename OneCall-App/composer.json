@@ -11,6 +11,7 @@
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
         "laravel/ui": "^3.4",
+        "midnite81/geolocation": "^3.0",
         "stevebauman/location": "^6.5",
         "twbs/bootstrap-icons": "^1.8"
     },

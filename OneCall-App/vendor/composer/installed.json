@@ -2366,6 +2366,74 @@
             "install-path": "../maxmind/web-service-common"
         },
         {
+            "name": "midnite81/geolocation",
+            "version": "v3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/midnite81/geolocation.git",
+                "reference": "05d2cd82233d3a3a6ab0438770ed6459337751c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/midnite81/geolocation/zipball/05d2cd82233d3a3a6ab0438770ed6459337751c2",
+                "reference": "05d2cd82233d3a3a6ab0438770ed6459337751c2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^7.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^6.3",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpunit/phpunit": "^9.4",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "time": "2020-10-29T21:52:08+00:00",
+            "type": "library",
+            "extra": {
+                "component": "package",
+                "frameworks": [
+                    "Laravel 6",
+                    "Laravel 7"
+                ],
+                "laravel": {
+                    "providers": [
+                        "Midnite81\\GeoLocation\\GeoLocationServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Midnite81\\GeoLocation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Rogers",
+                    "email": "webdev@centralblue.co.uk"
+                }
+            ],
+            "description": "A laravel package to hook into IP Info DB Service",
+            "keywords": [
+                "laravel",
+                "sms"
+            ],
+            "support": {
+                "issues": "https://github.com/midnite81/geolocation/issues",
+                "source": "https://github.com/midnite81/geolocation/tree/v3.0.0"
+            },
+            "install-path": "../midnite81/geolocation"
+        },
+        {
             "name": "mockery/mockery",
             "version": "1.5.0",
             "version_normalized": "1.5.0.0",

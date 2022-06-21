@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-//use App\Http\Controllers\PageController;
-use App\Http\Controllers\GeoLocationController;
+use App\Http\Controllers\PageController;
+
+use App\Http\Controllers\GeoController;
 
 
 /*
@@ -16,11 +17,11 @@ use App\Http\Controllers\GeoLocationController;
 |
 */
 
+Route :: get('/Location',[GeoController :: class,'index']);
+
 Route::get('/', function () {
     return view('auth.login');
 });
-
-Route::get('show-user-location-data', [LocationController::class, 'index']);
 
 Auth::routes();
 
